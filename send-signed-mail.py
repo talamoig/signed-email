@@ -110,7 +110,7 @@ def main():
         if ret==0: break
     sys.exit(ret)
 
-usage = "usage: %prog [options] sitename"
+usage = "usage: %prog [options] destination"
 parser = OptionParser(usage)
 if __name__ == "__main__":
         main()
